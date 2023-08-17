@@ -10,9 +10,9 @@ BA_items = BA.items()
 for NB, age in BA_items:
     if 18 <= age <= 25:
         amount = amount + 990
-    elif 18 < age:
+    elif 18 > age:
         amount = amount + 0
-    elif age < 25:
+    elif age > 25:
         amount = amount + 1390
 if NOP_1 > 3:
     amount = amount - amount * 0.1
